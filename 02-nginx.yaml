@@ -1,5 +1,6 @@
 - name: Nginx Installation
   hosts: web
+  become: yes # Means you are log to root user 
   tasks: 
   - name: installing nginx package # ansible install package
     ansible.builtin.package:
