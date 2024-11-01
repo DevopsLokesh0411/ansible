@@ -1,0 +1,22 @@
+- name: Lokesh
+  dob: "06-02-1995"
+  address: 
+    address-line1: "Tirumala nagar street-2"
+    address-line2: "Oteru road"
+    city: "Tirupati"
+  lastname: "Beesabathini"
+  Email: "beesabathini.lokesh@gmail.com"
+
+- name: Gireesh
+  dob: "07-02-1995"
+  address:
+  - type: "Home-address" 
+    address-line1: "Tirumala nagar street-2"
+    address-line2: "oteru road"
+    city: "Tirupati"
+  - type: "Office-address" 
+    address-line1: "Tirumala nagar street-2"
+    address-line2: "oteru road"
+    city: "Tirupati"
+  lastname: "Beesabathini"
+  Email: "beesabathini.lokesh@gmail.com"
