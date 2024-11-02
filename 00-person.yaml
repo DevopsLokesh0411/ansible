@@ -1,4 +1,4 @@
-- name: Lokesh
+- name: lokesh
   become: yes
   address: 
     address-line1: Tirumala nagar street-2
@@ -7,7 +7,7 @@
   lastname: Beesabathini
   Email: beesabathini.lokesh@gmail.com
 
-- name: Gireesh
+- name: gireesh
   become: yes
   address:
   - type: Home-address 
