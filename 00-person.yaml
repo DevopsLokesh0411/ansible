@@ -1,5 +1,6 @@
 - name: Lokesh
   dob: "06-02-1995"
+  become: yes
   address: 
     address-line1: "Tirumala nagar street-2"
     address-line2: "Oteru road"
@@ -9,6 +10,7 @@
 
 - name: Gireesh
   dob: "07-02-1995"
+  become: yes
   address:
   - type: "Home-address" 
     address-line1: "Tirumala nagar street-2"
