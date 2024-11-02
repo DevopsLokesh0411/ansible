@@ -1,0 +1,17 @@
+- name: writing variables
+  hosts: localhost
+  vars: 
+    name: "Lokesh"
+    course: "project-k"
+    duration: "2months"
+  tasks: 
+  - name: check variables
+    ansible.builtin.debug:
+      msg: "Hi this is {{name}} doing the {{course}} in the time of {{duration}}"
+
+
+
+
+
+
+      
