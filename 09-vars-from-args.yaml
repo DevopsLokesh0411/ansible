@@ -3,7 +3,7 @@
   tasks: 
   - name: check variables
     ansible.builtin.debug:
-      msg: "Hi this is {{mars}} doing the {{earth}} in the time of {{moon}}"
+      msg: "Hello {{person}}, Good {{wishes}}"
 
 
 
