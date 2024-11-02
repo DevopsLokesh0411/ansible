@@ -8,8 +8,8 @@
   tasks:
   - name: writing variables in task level
     vars: 
-      name: girish
-      course: Project-k
+      name: Girish
+      course: Blackranger
       duration: 2months
     ansible.builtin.debug:
       msg: "Hi this is {{name}} doing the {{course}} in the time of {{duration}}"

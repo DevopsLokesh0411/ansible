@@ -1,0 +1,9 @@
+- name: variables from files
+  hosts: localhost
+  vars_files:
+  -  variables.yaml
+  tasks:
+  - name: fetching the variables from another file 
+    ansible.builtin.debug:
+      msg: "Hi I'm doing the {{project}} tutor is {{name}} in the span of {{duration}}"
+
