@@ -1,0 +1,13 @@
+- name: writing variables
+  hosts: localhost
+  tasks: 
+  - name: check variables
+    ansible.builtin.debug:
+      msg: "Hi this is {{name}} doing the {{course}} in the time of {{duration}}"
+
+
+
+
+
+
+      

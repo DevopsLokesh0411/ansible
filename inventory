@@ -4,6 +4,15 @@
 192.187.56.10
 192.187.56.11
 
+[localhost]
+localhost
+
+[localhost:vars]
+name="Lokesh from inventory"
+course="Devops from inventory"
+duration="2months from inventory"
+
+
 [web]
 52.91.102.116
 
