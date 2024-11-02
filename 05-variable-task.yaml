@@ -2,10 +2,14 @@
 - name: writing variables as per task level
   hosts: localhost
   vars: 
-    name: girish
-    course: blackranger
+    name: Lokesh
+    course: Project-k
     duration: 2months
   tasks:
   - name: writing variables in task level
+    vars: 
+      name: Girish
+      course: Blackranger
+      duration: 2months
     ansible.builtin.debug:
       msg: "Hi this is {{name}} doing the {{course}} in the time of {{duration}}"
