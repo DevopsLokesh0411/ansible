@@ -9,5 +9,5 @@
     private: true 
   tasks:
   - name: Validation checks whether prompt is executing or not
-    ansible.built.debug: 
+    ansible.builtin.debug: 
       msg: "username is: {{username}}, password is {{password}}" 
