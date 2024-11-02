@@ -11,3 +11,4 @@
   - name: Validation checks whether prompt is executing or not
     ansible.builtin.debug: 
       msg: "username is: {{USERNAME}}, password is {{PASSWORD}}" 
+    
