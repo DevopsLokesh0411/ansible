@@ -1,20 +1,20 @@
 - name: Lokesh
   address: 
-    address-line1: "Tirumala nagar street-2"
-    address-line2: "Oteru road"
-    city: "Tirupati"
-  lastname: "Beesabathini"
-  Email: "beesabathini.lokesh@gmail.com"
+    address-line1: Tirumala nagar street-2
+    address-line2: Oteru road
+    city: Tirupati
+  lastname: Beesabathini
+  Email: beesabathini.lokesh@gmail.com
 
 - name: Gireesh
   address:
-  - type: "Home-address" 
-    address-line1: "Tirumala nagar street-2"
-    address-line2: "oteru road"
-    city: "Tirupati"
-  - type: "Office-address" 
-    address-line1: "Tirumala nagar street-2"
-    address-line2: "oteru road"
-    city: "Tirupati"
-  lastname: "Beesabathini"
-  Email: "beesabathini.lokesh@gmail.com"
+  - type: Home-address 
+    address-line1: Tirumala nagar street-2
+    address-line2: oteru road
+    city: Tirupati
+  - type: Office-address 
+    address-line1: Tirumala nagar street-2
+    address-line2: oteru road
+    city: Tirupati
+  lastname: Beesabathini
+  Email: beesabathini.lokesh@gmail.com
