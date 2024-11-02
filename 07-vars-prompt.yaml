@@ -10,4 +10,4 @@
   tasks:
   - name: Validation checks whether prompt is executing or not
     ansible.builtin.debug: 
-      msg: "username is: {{username}}, password is {{password}}" 
+      msg: "username is: {{Giving the username}}, password is {{Giving the password}}" 
