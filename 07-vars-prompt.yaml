@@ -1,0 +1,13 @@
+- name: Writing for prompt code 
+  hosts: localhost
+  vars_prompt:
+  - name: Giving the username
+    prompt: please enter the username
+    private: false
+  - name: Giving the password
+    prompt: please enter the password
+    private: true 
+  tasks:
+  - name: Validation checks whether prompt is executing or not
+    ansible.built.debug: 
+      msg: "username is: {{username}}, password is {{password}}" 
